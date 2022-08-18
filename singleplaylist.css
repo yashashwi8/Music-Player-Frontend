@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #0d1026;
+  color: white;
+  width: 100%;
+  min-width: 786px;
+}
+#navigation_bar {
+  background-color: #0d1026;
+  width: 100%;
+  height: 50px;
+  min-width: 786px;
+  position: relative;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav_element img {
+  width: 50px;
+  height: 50px;
+}
+.round {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px rgb(226, 186, 186) solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.corner {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
+  border-radius: 10px;
+  border: none;
+  background: rgb(177, 167, 167); /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+  position: relative;
+  width: 190px;
+  height: 30px;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+#Aside1 {
+  display: inline-block;
+  width: 73%;
+  background-color: #0c1126;
+  position: relative;
+}
+#Aside2 {
+  width: 25%;
+  background-color: #0c1126;
+  position: relative;
+}
+.contain {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.artistdetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  position: relative;
+  background-color: #141a40;
+}
+.artistdetails button {
+  background-color: #c548e1;
+}
+.artistdetails img {
+  width: 250px;
+  height: 250px;
+}
+.artistSong {
+  width: 100%;
+  margin-top: 8px;
+  background-color: #141a40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.songsimgs img {
+  height: 50px;
+  width: 50px;
+}
+.songs {
+  width: 70%;
+  background-color: #1a1f32;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.songsimgs {
+  display: flex;
+  align-items: center;
+}
+.part1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #141a40;
+}
+.uppersec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: #0c1126;
+}
+.part1Songs {
+  margin-top: 5px;
+  background-color: #0c1126;
+  width: 100%;
+}
+.songlist {
+  width: 100%;
+  background-color: #0c1126;
+  margin-top: 5px;
+}
+.songc img {
+  height: 100px;
+  width: 100px;
+}
+.songc {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #141a40;
+}
+.recentplayed {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.recentplayed img {
+  height: 50px;
+  width: 50px;
+}
+.containsong {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.player {
+  width: 100%;
+  height: 70px;
+  background-color: #292928;
+  bottom: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+}
+.songdetails img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+.songdetails {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  position: relative;
+}
+.songdetails button {
+  background-color: #292928;
+  border-radius: 50%;
+}
+.playactions {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.progress {
+  width: 100%;
+}
+.progress input {
+  width: 100%;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.controls button {
+  background-color: #292928;
+  border-radius: 50%;
+}
+.volumecontrols {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.volumecontrols button {
+  background-color: #292928;
+  border-radius: 50%;
+}
+.player i {
+  color: aliceblue;
+}
+.player {
+  position: sticky;
+  width: 100%;
+  min-width: 786px;
+}
+.containsong div:hover {
+  border: 1px solid #111742;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
+}
+.songlist .songc:hover {
+  border: 1px solid #111742;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
+}
+.artistSong .songs:hover {
+  border: 1px solid #111742;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
+}
